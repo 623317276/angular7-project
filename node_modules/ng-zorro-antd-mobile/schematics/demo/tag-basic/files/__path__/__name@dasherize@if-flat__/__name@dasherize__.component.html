@@ -1,0 +1,10 @@
+
+    <div class="tag-container">
+      <Tag data-seed="logId">Basic</Tag>
+      <Tag [selected]="true">Selected</Tag>
+      <Tag [disabled]="true">Disabled</Tag>
+      <Tag (onChange)="onChange($event)">Callback</Tag>
+      <Tag [closable]="true" (onClose)="onClose()" (afterClose)="afterClose()"> Closable</Tag>
+      <Tag [small]="true">Small and Readonly</Tag>
+    </div>
+  

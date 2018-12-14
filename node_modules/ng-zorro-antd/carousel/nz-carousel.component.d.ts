@@ -1,0 +1,51 @@
+import { AfterContentInit, AfterViewInit, ElementRef, EventEmitter, OnDestroy, QueryList, Renderer2, TemplateRef } from '@angular/core';
+import { NzCarouselContentDirective } from './nz-carousel-content.directive';
+export declare type SwipeDirection = 'swipeleft' | 'swiperight';
+export declare class NzCarouselComponent implements AfterViewInit, OnDestroy, AfterContentInit {
+    elementRef: ElementRef;
+    private renderer;
+    private _autoPlay;
+    private _autoPlaySpeed;
+    private _dots;
+    private _vertical;
+    private _effect;
+    private unsubscribe$;
+    activeIndex: number;
+    transform: string;
+    timeout: any;
+    slideContents: QueryList<NzCarouselContentDirective>;
+    slickList: ElementRef;
+    slickTrack: ElementRef;
+    nzAfterChange: EventEmitter<number>;
+    nzBeforeChange: EventEmitter<{
+        from: number;
+        to: number;
+    }>;
+    nzEnableSwipe: boolean;
+    onWindowResize(e: UIEvent): void;
+    readonly nextIndex: number;
+    readonly prevIndex: number;
+    nzDotRender: TemplateRef<{
+        $implicit: number;
+    }>;
+    nzDots: boolean;
+    nzEffect: string;
+    nzAutoPlay: boolean;
+    nzAutoPlaySpeed: number;
+    nzVertical: boolean;
+    setActive(content: NzCarouselContentDirective, i: number): void;
+    renderContent(): void;
+    setUpAutoPlay(): void;
+    updateMode(): void;
+    clearTimeout(): void;
+    next(): void;
+    pre(): void;
+    goTo(index: number): void;
+    onKeyDown(e: KeyboardEvent): void;
+    swipe(action?: SwipeDirection): void;
+    swipeInProgress(e: any): void;
+    constructor(elementRef: ElementRef, renderer: Renderer2);
+    ngAfterContentInit(): void;
+    ngAfterViewInit(): void;
+    ngOnDestroy(): void;
+}

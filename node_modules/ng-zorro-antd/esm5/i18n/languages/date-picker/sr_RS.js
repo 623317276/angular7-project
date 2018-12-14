@@ -1,0 +1,15 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+import * as tslib_1 from "tslib";
+import CalendarLocale from '../calendar/sr_RS';
+import TimePickerLocale from '../time-picker/sr_RS';
+/** @type {?} */
+var locale = {
+    lang: tslib_1.__assign({ placeholder: 'Izaberite datum', rangePlaceholder: ['Početni datum', 'Krajnji datum'] }, CalendarLocale),
+    timePickerLocale: tslib_1.__assign({}, TimePickerLocale),
+};
+export default locale;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3JfUlMuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZy16b3Jyby1hbnRkLyIsInNvdXJjZXMiOlsiaTE4bi9sYW5ndWFnZXMvZGF0ZS1waWNrZXIvc3JfUlMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSxPQUFPLGNBQWMsTUFBTSxtQkFBbUIsQ0FBQztBQUMvQyxPQUFPLGdCQUFnQixNQUFNLHNCQUFzQixDQUFDOztBQUdwRCxJQUFNLE1BQU0sR0FBRztJQUNiLElBQUkscUJBQ0YsV0FBVyxFQUFFLGlCQUFpQixFQUM5QixnQkFBZ0IsRUFBRSxDQUFDLGVBQWUsRUFBRSxlQUFlLENBQUMsSUFDakQsY0FBYyxDQUNsQjtJQUNELGdCQUFnQix1QkFDWCxnQkFBZ0IsQ0FDcEI7Q0FDRixDQUFDO0FBS0YsZUFBZSxNQUFNLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ2FsZW5kYXJMb2NhbGUgZnJvbSAnLi4vY2FsZW5kYXIvc3JfUlMnO1xuaW1wb3J0IFRpbWVQaWNrZXJMb2NhbGUgZnJvbSAnLi4vdGltZS1waWNrZXIvc3JfUlMnO1xuXG4vLyBNZXJnZSBpbnRvIGEgbG9jYWxlIG9iamVjdFxuY29uc3QgbG9jYWxlID0ge1xuICBsYW5nOiB7XG4gICAgcGxhY2Vob2xkZXI6ICdJemFiZXJpdGUgZGF0dW0nLFxuICAgIHJhbmdlUGxhY2Vob2xkZXI6IFsnUG/EjWV0bmkgZGF0dW0nLCAnS3Jham5qaSBkYXR1bSddLFxuICAgIC4uLkNhbGVuZGFyTG9jYWxlLFxuICB9LFxuICB0aW1lUGlja2VyTG9jYWxlOiB7XG4gICAgLi4uVGltZVBpY2tlckxvY2FsZSxcbiAgfSxcbn07XG5cbi8vIEFsbCBzZXR0aW5ncyBhdDpcbi8vIGh0dHBzOi8vZ2l0aHViLmNvbS9hbnQtZGVzaWduL2FudC1kZXNpZ24vYmxvYi9tYXN0ZXIvY29tcG9uZW50cy9kYXRlLXBpY2tlci9sb2NhbGUvZXhhbXBsZS5qc29uXG5cbmV4cG9ydCBkZWZhdWx0IGxvY2FsZTtcbiJdfQ==

@@ -1,0 +1,34 @@
+import { AfterViewInit, EventEmitter, OnInit, TemplateRef } from '@angular/core';
+import { NzMatchMediaService } from '../core/services/nz-match-media.service';
+import { NzLayoutComponent } from './nz-layout.component';
+export declare type NzBreakPoint = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
+export declare class NzSiderComponent implements OnInit, AfterViewInit {
+    private nzLayoutComponent;
+    private nzMatchMediaService;
+    private _collapsed;
+    private _collapsible;
+    _trigger: TemplateRef<void>;
+    private _reverseArrow;
+    private below;
+    private isInit;
+    private dimensionMap;
+    nzWidth: number;
+    nzCollapsedWidth: number;
+    nzBreakpoint: NzBreakPoint;
+    nzReverseArrow: boolean;
+    nzTrigger: TemplateRef<void>;
+    nzCollapsible: boolean;
+    nzCollapsed: boolean;
+    nzCollapsedChange: EventEmitter<{}>;
+    readonly setZeroClass: boolean;
+    readonly setFlex: string;
+    readonly setWidth: number;
+    onWindowResize(e: UIEvent): void;
+    watchMatchMedia(): void;
+    toggleCollapse(): void;
+    readonly isZeroTrigger: boolean;
+    readonly isSiderTrigger: boolean;
+    constructor(nzLayoutComponent: NzLayoutComponent, nzMatchMediaService: NzMatchMediaService);
+    ngOnInit(): void;
+    ngAfterViewInit(): void;
+}

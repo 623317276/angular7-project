@@ -1,0 +1,13 @@
+
+    <nz-tree
+      [nzData]="nodes"
+      nzDraggable="true"
+      (nzExpandChange)="nzAction($event)"
+      [nzBeforeDrop]="beforeDrop"
+      (nzOnDragStart)="nzAction($event)"
+      (nzOnDragEnter)="nzAction($event)"
+      (nzOnDragLeave)="nzAction($event)"
+      (nzOnDrop)="nzAction($event)"
+      (nzOnDragEnd)="nzAction($event)">
+    </nz-tree>
+  

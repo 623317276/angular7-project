@@ -1,0 +1,14 @@
+
+    <nz-tree
+      #treeCom
+      [nzData]="nodes"
+      nzCheckable="true"
+      nzMultiple="true"
+      [nzCheckedKeys]="defaultCheckedKeys"
+      [nzExpandedKeys]="defaultExpandedKeys"
+      [nzSelectedKeys]="defaultSelectedKeys"
+      (nzClick)="nzClick($event)"
+      (nzSelectedKeysChange)="nzSelect($event)"
+      (nzCheckBoxChange)="nzCheck($event)">
+    </nz-tree>
+  

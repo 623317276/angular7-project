@@ -1,0 +1,23 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { IconService } from './icon.service';
+import { IconDirective } from './icon.directive';
+var IconModule = /** @class */ (function () {
+    function IconModule() {
+    }
+    IconModule.decorators = [
+        { type: NgModule, args: [{
+                    imports: [CommonModule],
+                    exports: [IconDirective],
+                    declarations: [IconDirective],
+                    providers: [IconService]
+                },] }
+    ];
+    return IconModule;
+}());
+export { IconModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaWNvbi5tb2R1bGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AYW50LWRlc2lnbi9pY29ucy1hbmd1bGFyLyIsInNvdXJjZXMiOlsiY29tcG9uZW50L2ljb24ubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxPQUFPLEVBQUUsUUFBUSxFQUFFLE1BQU0sZUFBZSxDQUFDO0FBQ3pDLE9BQU8sRUFBRSxZQUFZLEVBQUUsTUFBTSxpQkFBaUIsQ0FBQztBQUMvQyxPQUFPLEVBQUUsV0FBVyxFQUFFLE1BQU0sZ0JBQWdCLENBQUM7QUFDN0MsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLGtCQUFrQixDQUFDO0FBRWpEO0lBQUE7SUFPQSxDQUFDOztnQkFQQSxRQUFRLFNBQUM7b0JBQ1IsT0FBTyxFQUFPLENBQUUsWUFBWSxDQUFFO29CQUM5QixPQUFPLEVBQU8sQ0FBRSxhQUFhLENBQUU7b0JBQy9CLFlBQVksRUFBRSxDQUFFLGFBQWEsQ0FBRTtvQkFDL0IsU0FBUyxFQUFLLENBQUUsV0FBVyxDQUFFO2lCQUM5Qjs7SUFFRCxpQkFBQztDQUFBLEFBUEQsSUFPQztTQURZLFVBQVUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xuaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcbmltcG9ydCB7IEljb25TZXJ2aWNlIH0gZnJvbSAnLi9pY29uLnNlcnZpY2UnO1xuaW1wb3J0IHsgSWNvbkRpcmVjdGl2ZSB9IGZyb20gJy4vaWNvbi5kaXJlY3RpdmUnO1xuXG5ATmdNb2R1bGUoe1xuICBpbXBvcnRzICAgICA6IFsgQ29tbW9uTW9kdWxlIF0sXG4gIGV4cG9ydHMgICAgIDogWyBJY29uRGlyZWN0aXZlIF0sXG4gIGRlY2xhcmF0aW9uczogWyBJY29uRGlyZWN0aXZlIF0sXG4gIHByb3ZpZGVycyAgIDogWyBJY29uU2VydmljZSBdXG59KVxuZXhwb3J0IGNsYXNzIEljb25Nb2R1bGUge1xufVxuIl19

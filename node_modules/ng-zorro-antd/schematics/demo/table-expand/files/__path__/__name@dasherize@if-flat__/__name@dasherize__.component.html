@@ -1,0 +1,27 @@
+
+    <nz-table #nzTable [nzData]="dataSet" [nzPageSize]="10">
+      <thead>
+        <tr>
+          <th nzShowExpand></th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-template ngFor let-data [ngForOf]="nzTable.data">
+          <tr>
+            <td nzShowExpand [(nzExpand)]="data.expand"></td>
+            <td>{{data.name}}</td>
+            <td>{{data.age}}</td>
+            <td>{{data.address}}</td>
+            <td><a href="#">Delete</a></td>
+          </tr>
+          <tr [nzExpand]="data.expand">
+            <td></td>
+            <td colspan="4">{{data.description}}</td>
+          </tr>
+        </ng-template>
+      </tbody>
+    </nz-table>

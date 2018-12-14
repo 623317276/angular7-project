@@ -1,0 +1,16 @@
+
+    <WingBlank>
+      <WhiteSpace></WhiteSpace>
+      <div Button (onClick)="showAlert()">customized buttons</div>
+      <WhiteSpace></WhiteSpace>
+      <div Button (onClick)="showAlertMuchButtons(message)">More than two buttons</div>
+      <WhiteSpace></WhiteSpace>
+
+      <ng-template #message>
+        <div>More than two buttons</div>
+      </ng-template>
+
+      <div Button (onClick)="showPromise()">promise</div>
+      <WhiteSpace></WhiteSpace>
+    </WingBlank>
+  

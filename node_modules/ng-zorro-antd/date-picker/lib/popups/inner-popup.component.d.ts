@@ -1,0 +1,30 @@
+import { EventEmitter, OnChanges, OnInit, SimpleChanges, TemplateRef } from '@angular/core';
+import { FunctionProp } from '../../../core/types/common-wrap';
+import { NzCalendarI18nInterface } from '../../../i18n/nz-i18n.interface';
+import { DisabledDateFn, PanelMode } from '../../standard-types';
+import { CandyDate } from '../candy-date';
+export declare class InnerPopupComponent implements OnInit, OnChanges {
+    showWeek: boolean;
+    locale: NzCalendarI18nInterface;
+    showTimePicker: boolean;
+    timeOptions: any;
+    enablePrev: boolean;
+    enableNext: boolean;
+    disabledDate: DisabledDateFn;
+    dateRender: FunctionProp<TemplateRef<Date> | string>;
+    selectedValue: CandyDate[];
+    hoverValue: CandyDate[];
+    panelMode: PanelMode;
+    panelModeChange: EventEmitter<PanelMode>;
+    value: CandyDate;
+    headerChange: EventEmitter<CandyDate>;
+    selectDate: EventEmitter<CandyDate>;
+    selectTime: EventEmitter<CandyDate>;
+    dayHover: EventEmitter<CandyDate>;
+    prefixCls: string;
+    constructor();
+    ngOnInit(): void;
+    ngOnChanges(changes: SimpleChanges): void;
+    onSelectTime(date: Date): void;
+    onSelectDate(date: CandyDate | Date): void;
+}

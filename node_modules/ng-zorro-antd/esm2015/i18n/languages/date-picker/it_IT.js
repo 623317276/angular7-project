@@ -1,0 +1,14 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+import CalendarLocale from '../calendar/it_IT';
+import TimePickerLocale from '../time-picker/it_IT';
+/** @type {?} */
+const locale = {
+    lang: Object.assign({ placeholder: 'Selezionare la data', rangePlaceholder: ['Data d\'inizio', 'Data di fine'] }, CalendarLocale),
+    timePickerLocale: Object.assign({}, TimePickerLocale),
+};
+export default locale;
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaXRfSVQuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZy16b3Jyby1hbnRkLyIsInNvdXJjZXMiOlsiaTE4bi9sYW5ndWFnZXMvZGF0ZS1waWNrZXIvaXRfSVQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sY0FBYyxNQUFNLG1CQUFtQixDQUFDO0FBQy9DLE9BQU8sZ0JBQWdCLE1BQU0sc0JBQXNCLENBQUM7O0FBR3BELE1BQU0sTUFBTSxHQUFHO0lBQ2IsSUFBSSxrQkFDRixXQUFXLEVBQUUscUJBQXFCLEVBQ2xDLGdCQUFnQixFQUFFLENBQUMsZ0JBQWdCLEVBQUUsY0FBYyxDQUFDLElBQ2pELGNBQWMsQ0FDbEI7SUFDRCxnQkFBZ0Isb0JBQ1gsZ0JBQWdCLENBQ3BCO0NBQ0YsQ0FBQztBQUtGLGVBQWUsTUFBTSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENhbGVuZGFyTG9jYWxlIGZyb20gJy4uL2NhbGVuZGFyL2l0X0lUJztcbmltcG9ydCBUaW1lUGlja2VyTG9jYWxlIGZyb20gJy4uL3RpbWUtcGlja2VyL2l0X0lUJztcblxuLy8gTWVyZ2UgaW50byBhIGxvY2FsZSBvYmplY3RcbmNvbnN0IGxvY2FsZSA9IHtcbiAgbGFuZzoge1xuICAgIHBsYWNlaG9sZGVyOiAnU2VsZXppb25hcmUgbGEgZGF0YScsXG4gICAgcmFuZ2VQbGFjZWhvbGRlcjogWydEYXRhIGRcXCdpbml6aW8nLCAnRGF0YSBkaSBmaW5lJ10sXG4gICAgLi4uQ2FsZW5kYXJMb2NhbGUsXG4gIH0sXG4gIHRpbWVQaWNrZXJMb2NhbGU6IHtcbiAgICAuLi5UaW1lUGlja2VyTG9jYWxlLFxuICB9LFxufTtcblxuLy8gQWxsIHNldHRpbmdzIGF0OlxuLy8gaHR0cHM6Ly9naXRodWIuY29tL2FudC1kZXNpZ24vYW50LWRlc2lnbi9pc3N1ZXMvNDI0XG5cbmV4cG9ydCBkZWZhdWx0IGxvY2FsZTtcbiJdfQ==

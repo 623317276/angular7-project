@@ -1,0 +1,49 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+import Calendar from './calendar/bg_BG';
+import DatePicker from './date-picker/bg_BG';
+import Pagination from './pagination/bg_BG';
+import TimePicker from './time-picker/bg_BG';
+export default {
+    locale: 'bg',
+    Pagination: Pagination,
+    DatePicker: DatePicker,
+    TimePicker: TimePicker,
+    Calendar: Calendar,
+    Table: {
+        filterTitle: 'Филтриране',
+        filterConfirm: 'Добре',
+        filterReset: 'Нулриане',
+        emptyText: 'Няма данни',
+        selectAll: 'Избор на текуща страница',
+        selectInvert: 'Обръщане',
+    },
+    Modal: {
+        okText: 'Добре',
+        cancelText: 'Отказ',
+        justOkText: 'Добре',
+    },
+    Popconfirm: {
+        okText: 'Добре',
+        cancelText: 'Отказ',
+    },
+    Transfer: {
+        notFoundContent: 'Няма намерени',
+        searchPlaceholder: 'Търсене',
+        itemUnit: 'избор',
+        itemsUnit: 'избори',
+    },
+    Select: {
+        notFoundContent: 'Няма намерени',
+    },
+    Upload: {
+        uploading: 'Качване...',
+        removeFile: 'Премахване',
+        uploadError: 'Грешка при качването',
+        previewFile: 'Преглед',
+    },
+};
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYmdfQkcuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZy16b3Jyby1hbnRkLyIsInNvdXJjZXMiOlsiaTE4bi9sYW5ndWFnZXMvYmdfQkcudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sUUFBUSxNQUFNLGtCQUFrQixDQUFDO0FBQ3hDLE9BQU8sVUFBVSxNQUFNLHFCQUFxQixDQUFDO0FBQzdDLE9BQU8sVUFBVSxNQUFNLG9CQUFvQixDQUFDO0FBQzVDLE9BQU8sVUFBVSxNQUFNLHFCQUFxQixDQUFDO0FBRTdDLGVBQWU7SUFDYixNQUFNLEVBQUUsSUFBSTtJQUNaLFVBQVUsWUFBQTtJQUNWLFVBQVUsWUFBQTtJQUNWLFVBQVUsWUFBQTtJQUNWLFFBQVEsVUFBQTtJQUNSLEtBQUssRUFBRTtRQUNMLFdBQVcsRUFBRSxZQUFZO1FBQ3pCLGFBQWEsRUFBRSxPQUFPO1FBQ3RCLFdBQVcsRUFBRSxVQUFVO1FBQ3ZCLFNBQVMsRUFBRSxZQUFZO1FBQ3ZCLFNBQVMsRUFBRSwwQkFBMEI7UUFDckMsWUFBWSxFQUFFLFVBQVU7S0FDekI7SUFDRCxLQUFLLEVBQUU7UUFDTCxNQUFNLEVBQUUsT0FBTztRQUNmLFVBQVUsRUFBRSxPQUFPO1FBQ25CLFVBQVUsRUFBRSxPQUFPO0tBQ3BCO0lBQ0QsVUFBVSxFQUFFO1FBQ1YsTUFBTSxFQUFFLE9BQU87UUFDZixVQUFVLEVBQUUsT0FBTztLQUNwQjtJQUNELFFBQVEsRUFBRTtRQUNSLGVBQWUsRUFBRSxlQUFlO1FBQ2hDLGlCQUFpQixFQUFFLFNBQVM7UUFDNUIsUUFBUSxFQUFFLE9BQU87UUFDakIsU0FBUyxFQUFFLFFBQVE7S0FDcEI7SUFDRCxNQUFNLEVBQUU7UUFDTixlQUFlLEVBQUUsZUFBZTtLQUNqQztJQUNELE1BQU0sRUFBRTtRQUNOLFNBQVMsRUFBRSxZQUFZO1FBQ3ZCLFVBQVUsRUFBRSxZQUFZO1FBQ3hCLFdBQVcsRUFBRSxzQkFBc0I7UUFDbkMsV0FBVyxFQUFFLFNBQVM7S0FDdkI7Q0FDRixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENhbGVuZGFyIGZyb20gJy4vY2FsZW5kYXIvYmdfQkcnO1xuaW1wb3J0IERhdGVQaWNrZXIgZnJvbSAnLi9kYXRlLXBpY2tlci9iZ19CRyc7XG5pbXBvcnQgUGFnaW5hdGlvbiBmcm9tICcuL3BhZ2luYXRpb24vYmdfQkcnO1xuaW1wb3J0IFRpbWVQaWNrZXIgZnJvbSAnLi90aW1lLXBpY2tlci9iZ19CRyc7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgbG9jYWxlOiAnYmcnLFxuICBQYWdpbmF0aW9uLFxuICBEYXRlUGlja2VyLFxuICBUaW1lUGlja2VyLFxuICBDYWxlbmRhcixcbiAgVGFibGU6IHtcbiAgICBmaWx0ZXJUaXRsZTogJ9Ck0LjQu9GC0YDQuNGA0LDQvdC1JyxcbiAgICBmaWx0ZXJDb25maXJtOiAn0JTQvtCx0YDQtScsXG4gICAgZmlsdGVyUmVzZXQ6ICfQndGD0LvRgNC40LDQvdC1JyxcbiAgICBlbXB0eVRleHQ6ICfQndGP0LzQsCDQtNCw0L3QvdC4JyxcbiAgICBzZWxlY3RBbGw6ICfQmNC30LHQvtGAINC90LAg0YLQtdC60YPRidCwINGB0YLRgNCw0L3QuNGG0LAnLFxuICAgIHNlbGVjdEludmVydDogJ9Ce0LHRgNGK0YnQsNC90LUnLFxuICB9LFxuICBNb2RhbDoge1xuICAgIG9rVGV4dDogJ9CU0L7QsdGA0LUnLFxuICAgIGNhbmNlbFRleHQ6ICfQntGC0LrQsNC3JyxcbiAgICBqdXN0T2tUZXh0OiAn0JTQvtCx0YDQtScsXG4gIH0sXG4gIFBvcGNvbmZpcm06IHtcbiAgICBva1RleHQ6ICfQlNC+0LHRgNC1JyxcbiAgICBjYW5jZWxUZXh0OiAn0J7RgtC60LDQtycsXG4gIH0sXG4gIFRyYW5zZmVyOiB7XG4gICAgbm90Rm91bmRDb250ZW50OiAn0J3Rj9C80LAg0L3QsNC80LXRgNC10L3QuCcsXG4gICAgc2VhcmNoUGxhY2Vob2xkZXI6ICfQotGK0YDRgdC10L3QtScsXG4gICAgaXRlbVVuaXQ6ICfQuNC30LHQvtGAJyxcbiAgICBpdGVtc1VuaXQ6ICfQuNC30LHQvtGA0LgnLFxuICB9LFxuICBTZWxlY3Q6IHtcbiAgICBub3RGb3VuZENvbnRlbnQ6ICfQndGP0LzQsCDQvdCw0LzQtdGA0LXQvdC4JyxcbiAgfSxcbiAgVXBsb2FkOiB7XG4gICAgdXBsb2FkaW5nOiAn0JrQsNGH0LLQsNC90LUuLi4nLFxuICAgIHJlbW92ZUZpbGU6ICfQn9GA0LXQvNCw0YXQstCw0L3QtScsXG4gICAgdXBsb2FkRXJyb3I6ICfQk9GA0LXRiNC60LAg0L/RgNC4INC60LDRh9Cy0LDQvdC10YLQvicsXG4gICAgcHJldmlld0ZpbGU6ICfQn9GA0LXQs9C70LXQtCcsXG4gIH0sXG59O1xuIl19

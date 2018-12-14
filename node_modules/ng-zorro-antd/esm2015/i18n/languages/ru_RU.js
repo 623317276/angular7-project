@@ -1,0 +1,49 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+import Calendar from './calendar/ru_RU';
+import DatePicker from './date-picker/ru_RU';
+import Pagination from './pagination/ru_RU';
+import TimePicker from './time-picker/ru_RU';
+export default {
+    locale: 'ru',
+    Pagination,
+    DatePicker,
+    TimePicker,
+    Calendar,
+    Table: {
+        filterTitle: 'Фильтр',
+        filterConfirm: 'OK',
+        filterReset: 'Сбросить',
+        emptyText: 'Нет данных',
+        selectAll: 'Выбрать всё',
+        selectInvert: 'Инвертировать выбор',
+    },
+    Modal: {
+        okText: 'OK',
+        cancelText: 'Отмена',
+        justOkText: 'OK',
+    },
+    Popconfirm: {
+        okText: 'OK',
+        cancelText: 'Отмена',
+    },
+    Transfer: {
+        notFoundContent: 'Ничего не найдено',
+        searchPlaceholder: 'Введите название для поиска',
+        itemUnit: 'item',
+        itemsUnit: 'items',
+    },
+    Select: {
+        notFoundContent: 'Ничего не найдено',
+    },
+    Upload: {
+        uploading: 'Закачиваю...',
+        removeFile: 'Удалить файл',
+        uploadError: 'Ошибка при закачке',
+        previewFile: 'Предпросмотр файла',
+    },
+};
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicnVfUlUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZy16b3Jyby1hbnRkLyIsInNvdXJjZXMiOlsiaTE4bi9sYW5ndWFnZXMvcnVfUlUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLE9BQU8sUUFBUSxNQUFNLGtCQUFrQixDQUFDO0FBQ3hDLE9BQU8sVUFBVSxNQUFNLHFCQUFxQixDQUFDO0FBQzdDLE9BQU8sVUFBVSxNQUFNLG9CQUFvQixDQUFDO0FBQzVDLE9BQU8sVUFBVSxNQUFNLHFCQUFxQixDQUFDO0FBRTdDLGVBQWU7SUFDYixNQUFNLEVBQUUsSUFBSTtJQUNaLFVBQVU7SUFDVixVQUFVO0lBQ1YsVUFBVTtJQUNWLFFBQVE7SUFDUixLQUFLLEVBQUU7UUFDTCxXQUFXLEVBQUUsUUFBUTtRQUNyQixhQUFhLEVBQUUsSUFBSTtRQUNuQixXQUFXLEVBQUUsVUFBVTtRQUN2QixTQUFTLEVBQUUsWUFBWTtRQUN2QixTQUFTLEVBQUUsYUFBYTtRQUN4QixZQUFZLEVBQUUscUJBQXFCO0tBQ3BDO0lBQ0QsS0FBSyxFQUFFO1FBQ0wsTUFBTSxFQUFFLElBQUk7UUFDWixVQUFVLEVBQUUsUUFBUTtRQUNwQixVQUFVLEVBQUUsSUFBSTtLQUNqQjtJQUNELFVBQVUsRUFBRTtRQUNWLE1BQU0sRUFBRSxJQUFJO1FBQ1osVUFBVSxFQUFFLFFBQVE7S0FDckI7SUFDRCxRQUFRLEVBQUU7UUFDUixlQUFlLEVBQUUsbUJBQW1CO1FBQ3BDLGlCQUFpQixFQUFFLDZCQUE2QjtRQUNoRCxRQUFRLEVBQUUsTUFBTTtRQUNoQixTQUFTLEVBQUUsT0FBTztLQUNuQjtJQUNELE1BQU0sRUFBRTtRQUNOLGVBQWUsRUFBRSxtQkFBbUI7S0FDckM7SUFDRCxNQUFNLEVBQUU7UUFDTixTQUFTLEVBQUUsY0FBYztRQUN6QixVQUFVLEVBQUUsY0FBYztRQUMxQixXQUFXLEVBQUUsb0JBQW9CO1FBQ2pDLFdBQVcsRUFBRSxvQkFBb0I7S0FDbEM7Q0FDRixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENhbGVuZGFyIGZyb20gJy4vY2FsZW5kYXIvcnVfUlUnO1xuaW1wb3J0IERhdGVQaWNrZXIgZnJvbSAnLi9kYXRlLXBpY2tlci9ydV9SVSc7XG5pbXBvcnQgUGFnaW5hdGlvbiBmcm9tICcuL3BhZ2luYXRpb24vcnVfUlUnO1xuaW1wb3J0IFRpbWVQaWNrZXIgZnJvbSAnLi90aW1lLXBpY2tlci9ydV9SVSc7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgbG9jYWxlOiAncnUnLFxuICBQYWdpbmF0aW9uLFxuICBEYXRlUGlja2VyLFxuICBUaW1lUGlja2VyLFxuICBDYWxlbmRhcixcbiAgVGFibGU6IHtcbiAgICBmaWx0ZXJUaXRsZTogJ9Ck0LjQu9GM0YLRgCcsXG4gICAgZmlsdGVyQ29uZmlybTogJ09LJyxcbiAgICBmaWx0ZXJSZXNldDogJ9Ch0LHRgNC+0YHQuNGC0YwnLFxuICAgIGVtcHR5VGV4dDogJ9Cd0LXRgiDQtNCw0L3QvdGL0YUnLFxuICAgIHNlbGVjdEFsbDogJ9CS0YvQsdGA0LDRgtGMINCy0YHRkScsXG4gICAgc2VsZWN0SW52ZXJ0OiAn0JjQvdCy0LXRgNGC0LjRgNC+0LLQsNGC0Ywg0LLRi9Cx0L7RgCcsXG4gIH0sXG4gIE1vZGFsOiB7XG4gICAgb2tUZXh0OiAnT0snLFxuICAgIGNhbmNlbFRleHQ6ICfQntGC0LzQtdC90LAnLFxuICAgIGp1c3RPa1RleHQ6ICdPSycsXG4gIH0sXG4gIFBvcGNvbmZpcm06IHtcbiAgICBva1RleHQ6ICdPSycsXG4gICAgY2FuY2VsVGV4dDogJ9Ce0YLQvNC10L3QsCcsXG4gIH0sXG4gIFRyYW5zZmVyOiB7XG4gICAgbm90Rm91bmRDb250ZW50OiAn0J3QuNGH0LXQs9C+INC90LUg0L3QsNC50LTQtdC90L4nLFxuICAgIHNlYXJjaFBsYWNlaG9sZGVyOiAn0JLQstC10LTQuNGC0LUg0L3QsNC30LLQsNC90LjQtSDQtNC70Y8g0L/QvtC40YHQutCwJyxcbiAgICBpdGVtVW5pdDogJ2l0ZW0nLFxuICAgIGl0ZW1zVW5pdDogJ2l0ZW1zJyxcbiAgfSxcbiAgU2VsZWN0OiB7XG4gICAgbm90Rm91bmRDb250ZW50OiAn0J3QuNGH0LXQs9C+INC90LUg0L3QsNC50LTQtdC90L4nLFxuICB9LFxuICBVcGxvYWQ6IHtcbiAgICB1cGxvYWRpbmc6ICfQl9Cw0LrQsNGH0LjQstCw0Y4uLi4nLFxuICAgIHJlbW92ZUZpbGU6ICfQo9C00LDQu9C40YLRjCDRhNCw0LnQuycsXG4gICAgdXBsb2FkRXJyb3I6ICfQntGI0LjQsdC60LAg0L/RgNC4INC30LDQutCw0YfQutC1JyxcbiAgICBwcmV2aWV3RmlsZTogJ9Cf0YDQtdC00L/RgNC+0YHQvNC+0YLRgCDRhNCw0LnQu9CwJyxcbiAgfSxcbn07XG4iXX0=

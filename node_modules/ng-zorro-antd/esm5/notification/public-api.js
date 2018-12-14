@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+export { NZ_NOTIFICATION_DEFAULT_CONFIG, NZ_NOTIFICATION_CONFIG, NZ_NOTIFICATION_DEFAULT_CONFIG_PROVIDER } from './nz-notification-config';
+export { NzNotificationComponent } from './nz-notification.component';
+export { NzNotificationModule } from './nz-notification.module';
+export { NzNotificationService } from './nz-notification.service';
+export { NzNotificationContainerComponent } from './nz-notification-container.component';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25nLXpvcnJvLWFudGQvIiwic291cmNlcyI6WyJub3RpZmljYXRpb24vcHVibGljLWFwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsZ0hBQWMsMEJBQTBCLENBQUM7QUFDekMsd0NBQWMsNkJBQTZCLENBQUM7QUFDNUMscUNBQWMsMEJBQTBCLENBQUM7QUFFekMsc0NBQWMsMkJBQTJCLENBQUM7QUFDMUMsaURBQWMsdUNBQXVDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL256LW5vdGlmaWNhdGlvbi1jb25maWcnO1xuZXhwb3J0ICogZnJvbSAnLi9uei1ub3RpZmljYXRpb24uY29tcG9uZW50JztcbmV4cG9ydCAqIGZyb20gJy4vbnotbm90aWZpY2F0aW9uLm1vZHVsZSc7XG5leHBvcnQgKiBmcm9tICcuL256LW5vdGlmaWNhdGlvbi5kZWZpbml0aW9ucyc7XG5leHBvcnQgKiBmcm9tICcuL256LW5vdGlmaWNhdGlvbi5zZXJ2aWNlJztcbmV4cG9ydCAqIGZyb20gJy4vbnotbm90aWZpY2F0aW9uLWNvbnRhaW5lci5jb21wb25lbnQnO1xuIl19

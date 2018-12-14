@@ -1,0 +1,46 @@
+import { AfterContentInit, ChangeDetectorRef, ElementRef, NgZone, OnDestroy, OnInit, QueryList, Renderer2 } from '@angular/core';
+import { NzUpdateHostClassService } from '../core/services/update-host-class.service';
+import { NzWaveDirective } from '../core/wave/nz-wave.directive';
+export declare type NzButtonType = 'primary' | 'dashed' | 'danger';
+export declare type NzButtonShape = 'circle' | null;
+export declare type NzButtonSize = 'small' | 'large' | 'default';
+export declare class NzButtonComponent implements AfterContentInit, OnInit, OnDestroy {
+    private elementRef;
+    private cdr;
+    private renderer;
+    private nzUpdateHostClassService;
+    private ngZone;
+    private _ghost;
+    private _search;
+    private _type;
+    private _shape;
+    private _size;
+    private _loading;
+    private _block;
+    private el;
+    private iconElement;
+    private iconOnly;
+    private prefixCls;
+    private sizeMap;
+    contentElement: ElementRef;
+    listOfIconElement: QueryList<ElementRef>;
+    nzBlock: boolean;
+    nzGhost: boolean;
+    nzSearch: boolean;
+    nzType: NzButtonType;
+    nzShape: NzButtonShape;
+    nzSize: NzButtonSize;
+    nzLoading: boolean;
+    nzWave: NzWaveDirective;
+    updateIconDisplay(value: boolean): void;
+    /** temp solution since no method add classMap to host https://github.com/angular/angular/issues/7289 */
+    setClassMap(): void;
+    checkContent(): void;
+    moveIcon(): void;
+    findFirstNotEmptyNode(element: HTMLElement): Node;
+    findLastNotEmptyNode(element: HTMLElement): Node;
+    constructor(elementRef: ElementRef, cdr: ChangeDetectorRef, renderer: Renderer2, nzUpdateHostClassService: NzUpdateHostClassService, ngZone: NgZone);
+    ngAfterContentInit(): void;
+    ngOnInit(): void;
+    ngOnDestroy(): void;
+}
