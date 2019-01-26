@@ -1,5 +1,0 @@
-
-    :host ::ng-deep strong {
-      color: rgba(64, 64, 64, 0.6);
-    }
-  
